@@ -1,0 +1,19 @@
+# Node.js files
+node_modules/
+npm-debug.log*
+
+# React build files
+build/
+dist/
+.parcel-cache/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.test
+
+# Logs
+*.log
+logs/
+
