@@ -1,0 +1,22 @@
+.dgc {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     width: 350px;
+    height: 225px;
+     padding-bottom: 65px;
+     
+    flex: 1;
+    position: center;
+   
+  }
+  .diagrame{
+    width: 50px;
+  }
+  .t1{
+    margin-top: 4px;
+    color:#a0a0a0;
+    font-size: 20px;
+   text-align: center;
+   margin-right: 30px;
+  }

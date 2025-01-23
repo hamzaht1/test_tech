@@ -1,0 +1,49 @@
+.titre{
+    margin-left: 40px;
+    margin-bottom: 30px;
+    width:200px;
+    color:white;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color:#110128;
+    height: 1300px; 
+    width:250px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin-right: 320px;
+    width: 0px;
+   
+  }
+  
+  .navbar li{
+    width: 250px;
+    padding: 10px ;
+    margin-bottom: 10px;
+    margin-right: 100px;
+  }
+  
+  
+  .navbar a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    
+   
+  }
+  
+  .navbar li:hover {
+    background-color: #555;
+    border-radius: 5px;
+    
+  }
+  

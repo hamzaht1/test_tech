@@ -1,0 +1,108 @@
+/* Conteneur principal */
+.livraisons {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* En-tête des livraisons */
+  .livraisons-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .livraisons-header h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .view-all {
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .view-all:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Boutons des onglets */
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .tab {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .tab.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .tab:hover {
+    background-color: #f0f8ff;
+    color: #007bff;
+  }
+  
+  /* Liste des livraisons */
+  .delivery-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Carte de livraison */
+  .delivery-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .delivery-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Styles spécifiques */
+  .delivery-item.in-progress {
+    border-left: 5px solid #007bff;
+    background-color: #f0f8ff;
+  }
+  
+  .delivery-item.scheduled {
+    border-left: 5px solid #4caf50;
+    background-color: #e8f5e9;
+  }
+  
